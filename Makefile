@@ -1,5 +1,5 @@
 clean:
-	rm -rf **/build/*
+	rm -rf **/build/result
 
 build: build-containers
 	docker run \
